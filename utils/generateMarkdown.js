@@ -13,40 +13,40 @@ function renderLicenseSection(license) { }
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
     return `# ${data.title}
-    ![Github license](http://img.shields.io/badge/license-${data.license}-blue.svg)   
+![Github license](http://img.shields.io/badge/license-${data.license}-blue.svg)   
 
-    ## Description
-    ${data.description}  
+## Description
+${data.description}  
     
-    ## Table of Contents 
+## Table of Contents 
     
-    - [Description](#description)   
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)   
-    - [Contributing](#contributing)   
-    - [Tests](#tests)   
-    - [Questions](#questions)   
+- [Description](#description)   
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)   
+- [Contributing](#contributing)   
+- [Tests](#tests)   
+- [Questions](#questions)   
     
-    ## Installation
-    ${data.installation}   
+## Installation
+${data.installation}   
     
-    ## Usage   
-    ${data.usage}
+## Usage   
+${data.usage}
     
-    ## License   
-    This application is covered under the following license: ${data.license}
+## License   
+This application is covered under the following license: ${data.license}
     
-    ## Contributing    
-    ${data.contributing}   
+## Contributing    
+${data.contributing}   
     
-    ## Tests    
-    ${data.tests}  
+## Tests    
+${data.tests}  
     
-    ## Questions   
-    Link to GitHub profile: ${data.github}   
-    For additional questions, please contact me at: ${data.email}
-    `;
+## Questions   
+Link to GitHub profile: ${data.github}   
+For additional questions, please contact me at: ${data.email}
+`;
 }
 
 module.exports = generateMarkdown;

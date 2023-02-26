@@ -1,8 +1,8 @@
-# ReadMe Generator
-![Github license](http://img.shields.io/badge/license-MIT-blue.svg)   
+# test
+![Github license](http://img.shields.io/badge/license-Apache licence 2.0-blue.svg)   
 
 ## Description
-Generates a ReadMe file for Github using user input  
+test  
     
 ## Table of Contents 
     
@@ -14,18 +14,17 @@ Generates a ReadMe file for Github using user input
 - [Tests](#tests)   
 - [Questions](#questions)   
     
-    
 ## Installation
-npm install   
+test   
     
 ## Usage   
-don't know yet
+test
     
 ## License   
-This application is covered under the following license: MIT
+This application is covered under the following license: Apache licence 2.0
     
 ## Contributing    
-email or issue in GitHub   
+test   
     
 ## Tests    
 npm test  
@@ -33,4 +32,3 @@ npm test
 ## Questions   
 Link to GitHub profile: anistone9   
 For additional questions, please contact me at: email.com
-    

@@ -1,8 +1,8 @@
-# test999 
-[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+# README Generator 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-testing  
+Application to allow users to create a README file for their projects  
     
 ## Table of Contents 
     
@@ -15,21 +15,21 @@ testing
 - [Questions](#questions)   
     
 ## Installation
-not sure   
+npm install   
     
 ## Usage   
-not there yet  
+use the node index command to get started  
 
 ## License   
-This application is covered under the following license: Boost Software License 1.0
+This application is covered under the following license: MIT
 
-    
+
 ## Contributing    
-ian made me do it   
+Please use the Issues tab in the repository to submit questions   
     
 ## Tests    
 npm test  
     
 ## Questions   
-Link to GitHub profile: anistone9   
-For additional questions, please contact me at: email.newemail
+Link to GitHub profile: https://github.com/anistone9         
+For additional questions, please contact me at: ani.stone.v@gmail.com

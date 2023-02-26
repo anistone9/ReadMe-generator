@@ -1,5 +1,5 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// This function returns a license badge  and link, based on the license selected by the user
+// If there is no license, it returns an empty string
 function renderLicenseBadge(license) {
     switch (license) {
         case 'Apache licence 2.0':
@@ -18,24 +18,24 @@ function renderLicenseBadge(license) {
             return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
         case 'Mozilla Public License 2.0':
             return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)'
+        default:
+            return '';
     }
-
-    return `![Github license](http://img.shields.io/badge/license-${license}-blue.svg)`;
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) { }
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Function to return the license section of README, or return an empty string if the user selection for license is 'none'
 function renderLicenseSection(license) {
-    return `## License   
+    if (license != 'none') {
+        return `## License   
 This application is covered under the following license: ${license}
 `;
+    }
+    else {
+        return '';
+    };
 }
 
-// TODO: Create a function to generate markdown for README
+// Function to generate markdown for README
 function generateMarkdown(data) {
     return `# ${data.title} 
 ${renderLicenseBadge(data.license)}
@@ -60,7 +60,7 @@ ${data.installation}
 ${data.usage}  
 
 ${renderLicenseSection(data.license)}
-    
+
 ## Contributing    
 ${data.contributing}   
     
@@ -68,12 +68,12 @@ ${data.contributing}
 ${data.tests}  
     
 ## Questions   
-Link to GitHub profile: ${data.github}   
+Link to GitHub profile: https://github.com/${data.github}         
 For additional questions, please contact me at: ${data.email}
 `;
 }
 
-//Export the generateMarkdown function  to make it available to index.js file
+//Export the generateMarkdown function to make it available to index.js file
 module.exports = generateMarkdown;
 
 

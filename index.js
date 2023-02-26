@@ -41,7 +41,7 @@ const questions = () => {
                 type: 'list',
                 message: 'What type of license would you like to add?',
                 name: 'license',
-                choices: ['Apache licence 2.0', 'Boost Software License 1.0', 'Creative Commons Atribution 4.0', 'Eclipse Public License 1.0', 'GNU General Public License v3.0', 'IBM Public License Version 1.0', 'MIT', 'Mozilla Public License 2.0'],
+                choices: ['Apache licence 2.0', 'Boost Software License 1.0', 'Creative Commons Atribution 4.0', 'Eclipse Public License 1.0', 'GNU General Public License v3.0', 'IBM Public License Version 1.0', 'MIT', 'Mozilla Public License 2.0', 'none'],
                 default: ['MIT'],
             },
             {

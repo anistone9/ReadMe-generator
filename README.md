@@ -1,8 +1,8 @@
-# note 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# test999 
+[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
 ## Description
-mananan  
+testing  
     
 ## Table of Contents 
     
@@ -15,20 +15,21 @@ mananan
 - [Questions](#questions)   
     
 ## Installation
-nope   
+not sure   
     
 ## Usage   
-nope
-    
+not there yet  
+
 ## License   
-This application is covered under the following license: Apache licence 2.0
+This application is covered under the following license: Boost Software License 1.0
+
     
 ## Contributing    
-not sure   
+ian made me do it   
     
 ## Tests    
 npm test  
     
 ## Questions   
-Link to GitHub profile: djhflasdjkhfajklhfdsjk   
-For additional questions, please contact me at: hfdjfhlasjdfhalkdhfjadsklhflh
+Link to GitHub profile: anistone9   
+For additional questions, please contact me at: email.newemail

@@ -1,8 +1,8 @@
-# test123 
-![Github license](http://img.shields.io/badge/license-MIT-blue.svg)
+# note 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description
-test123  
+mananan  
     
 ## Table of Contents 
     
@@ -15,20 +15,20 @@ test123
 - [Questions](#questions)   
     
 ## Installation
-test123   
+nope   
     
 ## Usage   
-test123
+nope
     
 ## License   
-This application is covered under the following license: MIT
+This application is covered under the following license: Apache licence 2.0
     
 ## Contributing    
-test123   
+not sure   
     
 ## Tests    
-test123  
+npm test  
     
 ## Questions   
-Link to GitHub profile: test123   
-For additional questions, please contact me at: test123
+Link to GitHub profile: djhflasdjkhfajklhfdsjk   
+For additional questions, please contact me at: hfdjfhlasjdfhalkdhfjadsklhflh

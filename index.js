@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-// Array of questions to collect user input
+// Function to collect user input
 const questions = () => {
     return inquirer
         .prompt([
@@ -10,26 +10,66 @@ const questions = () => {
                 type: 'input',
                 name: 'title',
                 message: 'What is the title of the project?',
+                validate: nameInput => {
+                    if (nameInput) {
+                        return true;
+                    } else {
+                        console.log('Please enter a project title');
+                        return false;
+                    }
+                }
             },
             {
                 type: 'input',
                 name: 'description',
                 message: 'Enter a brief description of the project',
+                validate: nameInput => {
+                    if (nameInput) {
+                        return true;
+                    } else {
+                        console.log('Please enter a description for your project');
+                        return false;
+                    }
+                }
             },
             {
                 type: 'input',
                 name: 'installation',
                 message: 'How do you install the application?',
+                validate: nameInput => {
+                    if (nameInput) {
+                        return true;
+                    } else {
+                        console.log('Please enter installation steps');
+                        return false;
+                    }
+                }
             },
             {
                 type: 'input',
                 name: 'usage',
                 message: 'How do you use the app?',
+                validate: nameInput => {
+                    if (nameInput) {
+                        return true;
+                    } else {
+                        console.log('Please enter steps on how to use the app');
+                        return false;
+                    }
+                }
             },
             {
                 type: 'input',
                 name: 'contributing',
                 message: 'What are the contribution guidelines for the app?',
+                validate: nameInput => {
+                    if (nameInput) {
+                        return true;
+                    } else {
+                        console.log('Please add info on how you wish to handle contributions');
+                        return false;
+                    }
+                }
             },
             {
                 type: 'input',
@@ -48,17 +88,33 @@ const questions = () => {
                 type: 'input',
                 name: 'github',
                 message: 'Enter your github username',
+                validate: nameInput => {
+                    if (nameInput) {
+                        return true;
+                    } else {
+                        console.log('Please enter your GitHub username');
+                        return false;
+                    }
+                }
             },
             {
                 type: 'input',
                 name: 'email',
                 message: 'What is your email address?',
+                validate: nameInput => {
+                    if (nameInput) {
+                        return true;
+                    } else {
+                        console.log('Please enter your email address');
+                        return false;
+                    }
+                }
             },
         ])
         .then((answers) => {
             const ReadMeContent = generateFile(answers);
 
-            fs.writeFile('README.md', ReadMeContent, (err) =>
+            fs.writeFile('./utils/README.md', ReadMeContent, (err) =>
                 err ? console.log(err) : console.log('Successfully created README.md file!')
             );
         });

@@ -1,9 +1,9 @@
 # README Generator   
 
 ## Description   
-This application allows users to create professional README files for their projects, based on user input via command-line and Node.js. The generated file includes a title, description of the application, instructions on how to install, use and test the application, along with license information and contributions. 
+This application allows users to create professional README files for their projects, based on user input via command-line and Node.js. The generated file includes a title, description of the application, instructions on how to install, use and test the application, along with license information and contributions.    
 
-# Table of Contents
+# Table of Contents   
 - [Description](#description)   
 - [Installation](#installation)
 - [Usage](#usage)
@@ -11,20 +11,20 @@ This application allows users to create professional README files for their proj
 - [Credits](#credits)  
 - [License](#license)     
 
-## Installation
-Clone the repository in GitHub, and install Node.js. Additionally, this application requires fs module and inquirer (version 8.2.4 used in this case). 
+## Installation   
+Clone the repository in GitHub, and install Node.js. Additionally, this application requires fs module and inquirer (version 8.2.4 used in this case).    
 
-# Usage  
-To use this README Generator application, open the integrated terminal and use 'node index' to start the program. Next, follow the suite of questions and provide answers for each one. For License, select an option from the list. If you do not wish to add a license, select 'none.' When done going through all the questions, a message for 'Successfully created README.md file!' is displayed. The generated README file includes a license badge under the title, if a license is selected in the command-line.
+# Usage    
+To use this README Generator, open the integrated terminal in Visual Studio Code, and use 'node index' to start the program. Next, follow the suite of questions and provide answers for each one. For License, select an option from the list. If you do not wish to add a license, select 'none.' When done going through all the questions, a message 'Successfully created README.md file!' is displayed. The generated README file includes a license badge under the title, if a license is selected in the command-line.    
 
-## Demo
+## Demo   
 
-![ReadMe-generator]
+![ReadMe-generator](https://drive.google.com/file/d/1OvROr1HBMOKyhR0RCyRvHVPekI-WCRCw/view)  
 
 ## Credits   
-University of Arizona Coding Bootcamp resources (started code and Acceptance Criteria)
+University of Arizona Coding Bootcamp resources (started code and Acceptance Criteria)  
 
-## License
+## License  
 
 MIT License
 
@@ -46,4 +46,4 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+SOFTWARE.  
